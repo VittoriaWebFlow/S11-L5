@@ -1,0 +1,22 @@
+.header-section {
+  width: 400px;
+  height: 30px;
+
+  display: flex;
+
+  align-items: center;
+  background-color: rgba(239, 239, 239, 0.2);
+}
+
+button {
+  width: 120px;
+  background-color: rgb(255, 0, 0);
+}
+
+.HR {
+  margin-right: 40px;
+}
+
+.image {
+  border: none;
+}
