@@ -1,22 +1,6 @@
 .header-section {
-  width: 400px;
-  height: 30px;
+  height: 35px;
+  width: 300px;
 
-  display: flex;
-
-  align-items: center;
-  background-color: rgba(239, 239, 239, 0.2);
-}
-
-button {
-  width: 120px;
-  background-color: rgb(255, 0, 0);
-}
-
-.HR {
-  margin-right: 40px;
-}
-
-.image {
-  border: none;
+  background-color: rgba(251, 251, 251, 0.595);
 }
