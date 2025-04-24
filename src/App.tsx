@@ -16,6 +16,7 @@ function App() {
   return (
     
 <BrowserRouter>
+
   <NavbarMusic/>
 <Container fluid={true}>
 <Row>
