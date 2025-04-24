@@ -27,16 +27,16 @@ function Cards() {
   }, []);
 
   return (
-    <Container fluid={true}>
-      <Row>
-        <Col>
-          <h6 className="text-light mt-5">Nuove uscite</h6>
-          <div className="d-flex flex-wrap justify-content-between">
-            {OmbdData?.data.slice(0, 10).map((item) => (
-              <Col key={item.id} sm={6} md={3} lg={2} className="me-3 border-0 mb-4">
-                <Card className="w-100 h-100 border-0 rounded-1 bg-black">
+    <Container className="ms-auto me-auto">
+      <Row >
+        <Col >
+          <h6 className="text-light mt-5 m-3 ms-auto me-auto">Nuove uscite</h6>
+          <div className="d-flex flex-wrap justify-content-between ">
+            {OmbdData?.data.slice(0, 12).map((item) => (
+              <Col key={item.id} sm={6} md={3} lg={2} className="border-0 mb-4 ms-auto me-auto p-2">
+                <Card className=" border-0 rounded-1 bg-black">
                   <Card.Img variant="top" src={item.album.cover} className="" />
-                  <div className="bg-black ">
+                  <div className="bg-black  ">
                   <Card.Body className="bg-black border-0 p-0 ">
                     <Card.Title className="text-light bg-black border-0 p-0 mt-2">{item.title}</Card.Title>
                     <Card.Text className="text-light p-0">
